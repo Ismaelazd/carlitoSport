@@ -1,0 +1,134 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+ html{
+   scroll-behavior: smooth;
+ }
+
+/***UPPERBAR***/
+
+
+.upperBar{
+    height: 50px; 
+    background-color: #e6ecff; 
+    display: flex;
+    right: 0;
+    justify-content: flex-end;
+  
+  }
+  
+  .block{
+    display: flex;
+    align-items: center;
+  }
+  
+  .loginButton {
+      width: auto;
+      
+      margin-top: 8px; 
+      margin-right: 10px; 
+      padding: 5px 35px; 
+      background-color: black; 
+      color: white; 
+      border-radius: 16px; 
+      border-style: none; 
+      font-size: 20px;
+    
+  }
+  .loginButton a{
+    color: white;
+  
+  }
+  
+  .loginButton:hover {
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+  }
+  .loginButton:active {
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .countrySelector img{
+    cursor: pointer;
+  }
+  
+  /******/
+  
+  /***NAVBAR***/
+  .navbar{
+    
+    background-color: black;
+    padding: 12px;
+    margin-bottom: 0px;
+   
+  }
+  .navbar-brand{
+    font-size: 140%;
+    font-weight: bold;
+    margin-left: 2%;
+    font-family: Raleway, sans-serif;
+    
+  }
+  
+  
+  
+  .navbar-toggler:active{
+    outline: none;
+  } 
+  
+  
+  .nav-link{
+    font-size: 18px;
+    margin: 0 8px;
+    
+  }
+  
+  .nav-link:hover{
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: black !important
+  }
+  .nav-link:active{
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: black !important
+  }
+  
+  a{
+    cursor: pointer !important;
+  }
+  
+  .sticky{
+    position: fixed;
+    top: 0;
+    width: 100% ;
+    transition: 1s;
+    z-index: 5;
+  }
+  
+  .endSticky{
+    position: relative;
+    
+    width: 100% ;
+    transition: 1s;
+  
+  }
+
+  @media screen and (min-width: 1200px) {
+    .navbar-brand {
+      font-size: 250%;
+    }
+  }
+
+  /*********/
+
+.actuSport{
+  text-align: center;
+  margin: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(29, 29, 29);
+}
+

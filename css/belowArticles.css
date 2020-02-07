@@ -1,0 +1,41 @@
+.stayConnected h2{
+    border-bottom: 1px solid #6b6b6b;
+}
+.stayConnected span{
+    font-weight: bold;
+}
+.stayConnected{
+    padding-bottom: 45px;
+    border-bottom: 1px solid #6b6b6b;
+}
+
+.loveIt{
+    
+    border-bottom: 1px solid #6b6b6b;
+}
+.loveIt img{
+    
+}
+
+.inscription a {
+    text-decoration: none ;
+    padding: 40px 20px;
+    background-color:#181818 ;
+    color: white;
+    border-radius: 20px;
+    transition: 1s;
+    font-weight: bold;
+}
+
+.inscription a:hover{
+    color:#181818 ;
+    background-color: white;
+    border: 3px solid #181818 ;
+    transition: 1s;
+}
+.inscription a:active{
+    color:#181818 ;
+    background-color: white;
+    border: 3px solid #181818 ;
+    transition: 1s;
+}
