@@ -22,7 +22,6 @@
             nav.parentNode.removeChild(fake)
         }
 
-
     }
     window.addEventListener('scroll', onScroll)
 

@@ -13,8 +13,11 @@
     
     border-bottom: 1px solid #6b6b6b;
 }
-.loveIt img{
-    
+.loveImg{
+   width: 50%;
+   height: 50%;
+   align-items: center;
+   align-self: center;
 }
 
 .inscription a {

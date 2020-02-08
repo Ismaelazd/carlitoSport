@@ -122,6 +122,21 @@ body{
       font-size: 250%;
     }
   }
+  @media screen and (max-width: 1200px) {
+    .navbar-brand {
+      font-size: 280%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .mediaText {
+      font-size: 150%;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .mediaText2 {
+      font-size: 128%;
+    }
+  }
 
   /*********/
 
