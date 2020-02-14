@@ -40,7 +40,7 @@
       </div>
       <div class="loginBlock ml-3">
         <a class="loginButton" href="connextion.html">S'identifier</a>
-        <a class="loginButton" href="inscriptionBis.html">S'inscrire</a>
+        <a class="loginButton" href="inscription.html">S'inscrire</a>
       </div>
     </div>
 
@@ -85,15 +85,16 @@
   </nav>
 
   <div class="actuSport">
-    <h2>Connexion - Inscription</h2>
+    <h2>Inscription</h2>
   </div>
 
 
   <section class="inscription container">
 
-    <div class="row mb-5 pt-5">
+    <div class=" my-5 py-5">
+    
       <div class="col-lg-6 col-sm-12 container py-3 ">
-
+       
         <h2 class="text-center">S'incrire</h2>
         <form class="mt-5" action="">
           <p>
@@ -122,28 +123,6 @@
             <button class="contact-submit">S'inscrire</button>
           </div>
         </form>
-      </div>
-
-
-      <div class="col-lg-6 col-sm-12 container py-3 ">
-        <h2 class="text-center">Se connecter</h2>
-        <form class="mt-5" action="">
-          <p>
-            <label for="id_username">Email:</label>
-            <input type="email" name="username" placeholder="Email" class="inscriptionField " maxlength="255" required=""
-              id="id_username">
-          </p>
-          <p>
-            <label for="id_password">Mot de passe:</label>
-            <input type="password" name="password" placeholder="Mot de passe" class="inscriptionField " maxlength="32"
-              minlength="6" required="" id="id_password">
-            <span class="helptext text-danger font-italic">* Le mot de passe doit contenir entre 6 et 32 caractères</span>
-          </p>
-          <div class="text-center">
-
-            <button class="contact-submit" >Se connecter</button>
-          </div>
-        </form>
 
       </div>
 
@@ -151,7 +130,6 @@
 
 
   </section>
-
 
   <footer>
     <div class="firstFooter py-4">
@@ -181,10 +159,12 @@
           </ul>
 
         </div>
-        <div class="col-lg-4 col-xs-12 my-3 d-flex justify-content-center align-items-center VIP ">
+        <div class="col-lg-4 col-xs-12 my-3  VIP ">
           <a href="">
-            <h3 class="">Devenir VIP</h3>
+            <h3 class="mb-5">Devenir VIP</h3>
+
           </a>
+          <a class="lad img-fluid mt-5" href="https://sports.ladbrokes.be/fr" target="_blank"><img src="../img/ladbrokes.png" alt=""></a> 
         </div>
       </div>
     </div>
@@ -194,16 +174,27 @@
     </svg>
     <div class="secondFooter">
 
-      <div class="conrainer d-flex justify-content-around">
-        <p>préventions</p>
-        <p>conditions</p>
-        <a href="https://sports.ladbrokes.be/fr" target="_blank"><img src="../img/ladbrokes.png" alt=""></a>
 
+
+      <div class="conrainer d-flex justify-content-around conditions" >
+        <p class="sous-conditions" style="text-align: justify;">JOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE.
+          POUR ÊTRE AIDÉ, APPELEZ LE 09 74 75 13 13 ( France) où 0800 35 777 ( Belgique)
+          Les jeux d'argent en ligne sont strictement interdits aux mineurs.</p>
+        <p class="sous-conditions" >Copyright © 2020 CARLITOSPORT. Tous droits réservés.</p>
+        <p class="sous-conditions" ><a href="html/mentionsLegales.html">Mentions légales - CGU/CGV</a></p>
+        <div class="sous-conditions" >
+          Payements 100% sécurisés
+          <div>
+            <img src="./img/visa.png" style="width:64px;height:64px;margin-right: 10px;">
+            <img src="./img/mastercard.png" style="width:64px;height:64px;">
+          </div>
+        </div>
       </div>
 
     </div>
-  </footer>
 
+    </div>
+  </footer>
 
 
 

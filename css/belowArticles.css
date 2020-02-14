@@ -28,17 +28,17 @@
     border-radius: 20px;
     transition: 1s;
     font-weight: bold;
+    border: 3px solid #181818 ;
 }
 
 .inscription a:hover{
     color:#181818 ;
     background-color: white;
-    border: 3px solid #181818 ;
     transition: 1s;
 }
 .inscription a:active{
     color:#181818 ;
     background-color: white;
-    border: 3px solid #181818 ;
     transition: 1s;
 }
+

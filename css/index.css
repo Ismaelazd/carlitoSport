@@ -147,3 +147,17 @@ body{
   border-bottom: 1px solid rgb(29, 29, 29);
 }
 
+.bg-sport{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../img/bg-foot.jpg');
+  
+
+}
+.opac{
+  opacity: 1;
+  background-color: #ffffff2d;
+}
+
