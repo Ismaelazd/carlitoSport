@@ -54,14 +54,14 @@
 
 .alreadySign{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 }
 
 .alreadySign a {
     background-color: #222;
-    padding: 12px;
+    padding: 30px 46px;
     border: 2px solid #222;
     color: #fff;
     text-transform: uppercase;
@@ -87,4 +87,7 @@
     -webkit-transition: .5s background-color ease;
     -o-transition: .5s background-color ease;
     transition: .5s background-color ease; 
+}
+.sign{
+    padding: 0 12%;
 }
