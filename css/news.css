@@ -44,11 +44,15 @@
     margin-bottom: -1px;
     width: 100%;
     height: 150px;
-}
+    transform: translateY(1.4px);
 
+}
+.news{
+ 
+}
 #svg-bottom-left {
     fill: #181818;
-    transform: translateY(-0.5px);
+    transform: translateY(-1.2px);
     width: 100%;
     height: 150px;
     color: transparent;
@@ -71,3 +75,10 @@
     border-bottom: 1px solid #6b6b6b;
     color: #6b6b6b;
   }
+
+.newsbg{
+  background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../img/stadium.jpg');
+}
