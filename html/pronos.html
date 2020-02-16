@@ -14,6 +14,7 @@
 
   <link rel="stylesheet" href="../css/index.css">
   <link rel="stylesheet" href="../css/board.css">
+  <link rel="stylesheet" href="../css/pronos.css">
   <link rel="stylesheet" href="../css/news.css">
   <link rel="stylesheet" href="../css/belowArticles.css">
   <link rel="stylesheet" href="../css/socialMedia.css">
@@ -33,7 +34,7 @@
     </div> -->
 
   <div class="upperBar py-3">
-    <div class="block mx-4">
+    <div class="d-flex mx-4">
       <div class="countryBlock mr-3">
         <div class="countrySelector">
           <a href=""><img src="../img/belgium.png" id="belgium2" class="country2"></a>
@@ -49,8 +50,8 @@
 
   </div>
 
-  <nav class="navbar navbar-expand-lg navbar-dark d-flex">
-    <a class="navbar-brand text-white" href="index.html">CarlitoSport</a>
+  <nav class="navbar navbar-expand-xl navbar-dark d-flex">
+    <a class="navbar-brand text-white mediaText3" href="index.html">CarlitoSport</a>
     <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon  "></span>
@@ -89,6 +90,34 @@
     <h2>Pronos</h2>
   </div>
 
+  <section class="pronosLink mb-5">
+    <div class="opac  ">
+    <div class="back container d-flex justify-content-center ">
+			<div class="textBlock my-5" id="bonus">
+				<h1 class="text-center">
+					PRONOS
+				</h1>
+				<table>
+					<tr>
+						<td class="title" id="firstLineRight">Match</td>
+						<td class="title" id="firstLine">Côte</td>
+						<td class="title" id="firstLineLeft">Gain</td>
+					</tr>
+					<tr>
+						<td>Real<br>vs<br>Barca</td>
+						<td>Real gagnant<br>2.3</td>
+						<td>200€</td>
+					</tr>
+					<tr>
+						<td>Chealsea<br>vs<br>Manchester United</td>
+						<td>Chelsea 2-0<br>4.0</td>
+						<td>470€</td>
+					</tr>
+				</table>
+			</div>
+    </div>
+  </div>
+  </section>
 
   <footer>
     <div class="firstFooter py-4">
@@ -139,8 +168,15 @@
         <p class="sous-conditions" style="text-align: justify;">JOUER COMPORTE DES RISQUES : ENDETTEMENT, ISOLEMENT, DÉPENDANCE.
           POUR ÊTRE AIDÉ, APPELEZ LE 09 74 75 13 13 ( France) où 0800 35 777 ( Belgique)
           Les jeux d'argent en ligne sont strictement interdits aux mineurs.</p>
-        <p class="sous-conditions" >Copyright © 2020 CARLITOSPORT. Tous droits réservés.</p>
-        <p class="sous-conditions" ><a href="html/mentionsLegales.html">Mentions légales - CGU/CGV</a></p>
+        <div class="sous-conditions" >
+          <p>Copyright © 2020 CARLITOSPORT. Tous droits réservés.</p>
+        </div>
+        <div class="sous-conditions" >
+          <p><a href="html/mentionsLegales.html">Mentions légales - CGU/CGV</a></p>
+          <div><img src="../img/18.png" class=" mb-3 img18 " alt=""></div>
+          
+        
+        </div>
         <div class="sous-conditions" >
           Payements 100% sécurisés
           <div>
@@ -157,9 +193,6 @@
 
 
 
-
-
-
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
   </script>
@@ -172,5 +205,7 @@
   </script>
   <script src="../js/script.js"></script>
 </body>
+
+
 
 </html>

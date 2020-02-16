@@ -14,7 +14,13 @@ body{
     display: flex;
     right: 0;
     justify-content: flex-end;
+    align-items: center;
   
+  }
+
+  .loginBlock{
+    display: flex;
+    align-items: center;
   }
   
   .block{
@@ -25,7 +31,6 @@ body{
   .loginButton {
       width: auto;
       
-      margin-top: 8px; 
       margin-right: 10px; 
       padding: 5px 35px; 
       background-color: black; 
@@ -70,14 +75,16 @@ body{
     font-weight: bold;
     margin-left: 2%;
     font-family: Raleway, sans-serif;
+
     
   }
   
   
 
-  .navbar-toggler:active{
+  .navbar-toggler:hover{
     outline: none;
   } 
+ 
   
   
   .nav-link{
@@ -118,21 +125,24 @@ body{
   }
 
   @media screen and (min-width: 1200px) {
-    .navbar-brand {
+    /* .navbar-brand {
       font-size: 250%;
-    }
+    } */
   }
   
   @media screen and (max-width: 1200px) {
-    .navbar-brand {
+    /* .navbar-brand {
       font-size: 280%;
-    }
+    } */
 
     .mediaText {
       font-size: 150%;
     }
     .mediaText2 {
       font-size: 128%;
+    }
+    .mediaText3{
+      font-size: 250%;
     }
   }
 
@@ -158,6 +168,6 @@ body{
 }
 .opac{
   opacity: 1;
-  background-color: #ffffff2d;
+  background-color: #ffffff38;
 }
 

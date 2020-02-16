@@ -1,0 +1,24 @@
+.videoCertif {
+   
+    border-radius: 4px;
+  }
+
+  .portraitCertif {
+      display: flex;
+      justify-content: center;
+  }
+
+  .portraitCertif img {
+    width: 18%;
+ 
+    margin-top: 50px;
+    margin: 30px;
+    border-radius: 50%;
+  }
+
+  .bg-certif{
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../img/pronos.jpg');
+  }
