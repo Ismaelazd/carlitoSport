@@ -35,6 +35,8 @@
   padding: 10px 15px;
   color: #262626;
   border-radius: 10px;
+  -webkit-appearance: none;
+ 
 }
 
 .suivant:hover{
