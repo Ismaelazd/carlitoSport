@@ -38,47 +38,13 @@
 
 })()
 
-var form = document.getElementById("emailEntry");
-form.addEventListener("submit", checkEmail, false);
-
-
-
-function verifyEmailFormat() {
-    var e1 = this.email.value;
-    var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-    var isEmail = re.test( e1 )
-    if( !isEmail ){
-      event.preventDefault();
-      alert('Email invalide');
-    }
-  }
   
-  function checkEmail() {
-    var e1 = this.email.value;
-    var e2 = this.emailConf.value;
-    var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
-    var isEmail = re.test( e1 ) || re.test( e2 ) ;
-    var isMatch = e1 === e2;
-    if( !isEmail ){
-      event.preventDefault(); 
-      alert('Emails invalides');
+window.onload = function() {
+    if(localStorage.getItem('popState') != 'shown'){
+        document.getElementById('popupID').style.display = 'block';
+        load()
+        localStorage.setItem('popState','shown')
     }
-    else if ( !isMatch ){
-      event.preventDefault();
-      alert("Les emails entrés ne correspondent pas");
-    }
-  }
-
-  
-  window.onload = function() {
-	document.getElementById('belgium').style.display = 'block';
-	if(localStorage.getItem('popState') != 'shown'){
-		document.getElementById('popupID').style.display = 'block';
-		load()
-		localStorage.setItem('popState','shown')
-	}
-	setTimeout(fade, 3000)
-	changeDisp()
 };
 
 function load() {

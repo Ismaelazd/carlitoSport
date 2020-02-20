@@ -30,7 +30,6 @@ body{
   
   .loginButton {
       width: auto;
-      
       margin-right: 10px; 
       padding: 5px 35px; 
       background-color: black; 
@@ -57,7 +56,11 @@ body{
   }
   
   .countrySelector img{
+    margin-top: 3%;
     cursor: pointer;
+    width: 48px;
+    height: 32px;
+    margin-right: 3px;
   }
   
   /******/
@@ -78,7 +81,6 @@ body{
 
     
   }
-  
   
 
   .navbar-toggler:hover{
@@ -129,17 +131,17 @@ body{
       font-size: 250%;
     } */
   }
-  
+
   @media screen and (max-width: 1200px) {
     /* .navbar-brand {
       font-size: 280%;
     } */
 
     .mediaText {
-      font-size: 150%;
+      font-size: 100%;
     }
     .mediaText2 {
-      font-size: 128%;
+      font-size: 90%;
     }
     .mediaText3{
       font-size: 250%;
@@ -152,22 +154,86 @@ body{
 
 .actuSport{
   text-align: center;
-  margin: 15px;
+  padding: 15px;
   padding-bottom: 10px;
   border-bottom: 1px solid rgb(29, 29, 29);
 }
 
 .bg-sport{
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-image: url('../img/bg-foot.jpg');
-  
-
+   
 }
+
+.fixed:before {
+  width: 100%;
+  height: 100%;
+  content:"";
+  position: fixed;
+  background-image: url('../img/bg-foot.jpg');
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  z-index:-1 ;
+  display:block;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fixed{
+  position: relative;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .opac{
   opacity: 1;
   background-color: #ffffff38;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:1;
+  pointer-events: auto;
+}
+
+.popup:target {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.popup > div {
+  width: 600px;
+  font-size: 24px;
+  position: relative;
+  margin: 10% auto;
+  padding: 40px;
+  border-radius: 10px;
+  background: #e6ecff;
+}
+
+.popup img {
+    margin: 10px;
+    padding: 5px;
+    width: 54px;
+    height: 36px;
+}
+
+.popup img:hover {
+  background: #c6d9ec;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
