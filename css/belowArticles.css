@@ -1,3 +1,7 @@
+.belowArticles{
+    transform: translateY(-2px)
+}
+
 .stayConnected h2{
     border-bottom: 1px solid #6b6b6b;
 }
