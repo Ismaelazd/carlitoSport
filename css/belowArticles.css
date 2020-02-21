@@ -42,6 +42,10 @@
     transition: 1s;
 }
 
+.w-75:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 960px) {
     .w-75{
         width: 60%!important;
