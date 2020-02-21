@@ -35,6 +35,7 @@
   padding: 10px 15px;
   border-style: solid;
   border-radius: 10px;
+  border-width: 2px;
   -webkit-appearance: none;
   color: white;
   background-color: #262626; 
