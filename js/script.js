@@ -36,6 +36,17 @@
 
     items.forEach(item => item.addEventListener('click', toggleAccordion));
 
+    let block = document.querySelectorAll('.box');
+    let rules = document.getElementById('rules');
+    let li = rules.children
+    for (let i = 0; i < li.length - 5; i++) {
+        for (let i = 0; i < block.length; i++) {        
+            block[i].style.height = String(320+((li.length - 5)*22))+'px';
+        }
+        
+    }
+    
+
 })()
 
   
